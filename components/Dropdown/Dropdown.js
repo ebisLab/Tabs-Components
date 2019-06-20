@@ -18,7 +18,7 @@ class Dropdown {
     
     // Toggle the ".dropdown-hidden" class off and on
     this.content.classList.toggle('dropdown-hidden');
-    console.log('Hello')
+    console.log(this.content.classList)
   }
 }
 
