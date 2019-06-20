@@ -20,7 +20,7 @@ this.element.addEventListener('click', () => this.select());
   select() {
     console.log ('Suprise MF*KA!')
     // Get all of the elements with the tabs-link class
-    const links = document.querySelector('.tabs-link');
+    const links = document.querySelectorAll('.tabs-link');
 
     // Using a loop or the forEach method remove the 'tabs-link-selected' class from all of the links
     Array.from(links).forEach(element => {
